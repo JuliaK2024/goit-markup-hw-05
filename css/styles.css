@@ -598,6 +598,19 @@ ol {
     background-color: transparent;
 }
 
+.modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+
+}
+
 .second-prg {
     font-size: 12px;
     line-height: 1.16667;
