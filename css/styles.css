@@ -558,7 +558,7 @@ ol {
     right: 24px;
     top: 24px;
     height: 24px;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     display: flex;
     background-color: #e7e9fc;
@@ -568,16 +568,11 @@ ol {
     width: 24px;
 }
 
-.button-icon {
-    text-align: center;
-}
+.button-icon {}
 
 .modal-icon {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 4px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .modal-title {
@@ -594,7 +589,7 @@ ol {
 .modal-input {
     width: 100%;
     border-radius: 4px;
-    height: 52px;
+    height: 40px;
     background-color: transparent;
     padding-left: 38px;
 }
@@ -602,9 +597,16 @@ ol {
 .modal-label {
     display: block;
     margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-bottom: 4px;
+
 }
 
 .modal-field {
+    position: relative;
     margin-bottom: 8px;
 }
 
@@ -616,12 +618,12 @@ ol {
 }
 
 .modal-button {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
@@ -631,6 +633,9 @@ ol {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-prg {
