@@ -565,9 +565,20 @@ ol {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
+    width: 24px;
 }
 
-.close-btn {}
+.button-icon {
+    text-align: center;
+}
+
+.modal-icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 4px;
+}
 
 .modal-title {
     padding-top: 72px;
