@@ -544,6 +544,7 @@ ol {
     transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 24px;
+
 }
 
 .backdrop.is-open {
@@ -566,6 +567,18 @@ ol {
     padding: 0;
     cursor: pointer;
     width: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    background-color: #404BBF;
+    border: none;
+}
+
+.button-icon:hover,
+.button-icon:focus {
+    fill: #FFFFFF;
 }
 
 .modal-icon {
@@ -610,7 +623,7 @@ ol {
 .modal-textarea {
     width: 100%;
     border-radius: 4px;
-    height: 138px;
+    height: 120px;
     background-color: transparent;
 }
 
@@ -635,7 +648,11 @@ ol {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.second-prg {
+.check-box-container {
+    margin-bottom: 24px;
+}
+
+.terms-and-conditions {
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.04em;
@@ -644,4 +661,19 @@ ol {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+}
+
+.textarea {
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
