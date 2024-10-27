@@ -731,7 +731,7 @@ modal-icon:hover {
     border-color: #4D5AE5;
 }
 
-.check-box-form:checked+modal-check-text>checkbox {
+.check-box-form:checked+.modal-check-text>.checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
