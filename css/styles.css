@@ -802,3 +802,7 @@ footer-input::placeholder {
     background-color: #4D5AE5;
     border: none;
 }
+
+.footer-subscribe-icon {
+    margin-left: 16px;
+}
