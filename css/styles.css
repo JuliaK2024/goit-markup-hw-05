@@ -729,9 +729,24 @@ ol {
     border-color: #4D5AE5;
 }
 
-.check-box-form:checked {
+.check-box-form:checked+.checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+.subscribe {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-email-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
 
 }
