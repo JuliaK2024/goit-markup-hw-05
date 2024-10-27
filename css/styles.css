@@ -607,6 +607,9 @@ ol {
     fill: #4D5AE5;
 }
 
+.modal-input:focus {
+    border-color: #4D5AE5;
+}
 
 .modal-title {
     font-weight: 500;
@@ -742,7 +745,7 @@ input:checked+label>span .subscribe {
     color: #fff;
 }
 
-.footer-email-input {
+.subscibe-label {
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
