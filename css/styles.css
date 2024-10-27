@@ -544,7 +544,6 @@ ol {
     transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
-
 }
 
 .backdrop.is-open {
@@ -585,7 +584,9 @@ ol {
 }
 
 .modal-icon {
+    position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateY(-50%);
 }
 
@@ -597,7 +598,6 @@ ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 16px;
 }
 
 .modal-input {
@@ -671,5 +671,10 @@ ol {
     padding: 8px 16px;
     outline: transparent;
     resize: none;
+    border-color: #4D5AE5;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-textarea:focus {
     border-color: #4D5AE5;
 }
